@@ -63,11 +63,12 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 13);
+/******/ 	return __webpack_require__(__webpack_require__.s = 18);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
+/* 0 */,
+/* 1 */
 /***/ (function(module, exports) {
 
 /*
@@ -123,7 +124,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports) {
 
 /*
@@ -375,25 +376,27 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 2 */,
 /* 3 */,
-/* 4 */
+/* 4 */,
+/* 5 */,
+/* 6 */
 /***/ (function(module, exports) {
 
 // const hello = 'hello-world';
 
 /***/ }),
-/* 5 */,
-/* 6 */
+/* 7 */,
+/* 8 */,
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(9);
+var content = __webpack_require__(12);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(1)(content, {});
+var update = __webpack_require__(2)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -410,30 +413,32 @@ if(false) {
 }
 
 /***/ }),
-/* 7 */,
-/* 8 */,
-/* 9 */
+/* 10 */,
+/* 11 */,
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)();
+exports = module.exports = __webpack_require__(1)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,700);", ""]);
 
 // module
-exports.push([module.i, "html {\n  font-size: 10px; }\n\nbody {\n  margin: 0;\n  font-family: 'Source Code Pro', monospace; }\n", ""]);
+exports.push([module.i, "html {\n  font-size: 10px; }\n\nbody {\n  margin: 0;\n  font-family: 'Source Code Pro', monospace; }\n\n.container {\n  padding: 20px;\n  width: 100%; }\n\naside {\n  width: 30%;\n  font-size: 1.5rem; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(4);
-module.exports = __webpack_require__(6);
+__webpack_require__(6);
+module.exports = __webpack_require__(9);
 
 
 /***/ })
